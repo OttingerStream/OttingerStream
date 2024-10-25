@@ -1,0 +1,84 @@
+/* Стили для всего сайта */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: black;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+/* Заголовок */
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Каталог картин */
+.catalog {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+    padding: 20px;
+}
+
+/* Карточки */
+.item {
+    background-color: white;
+    color: black;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+    text-align: center;
+}
+
+.item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* Форма обратной связи */
+.form {
+    margin: 20px;
+    text-align: center;
+}
+
+.form input {
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+.form button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+.form button:hover {
+    background-color: black;
+    color: white;
+    transition: 0.3s;
+}
+
+/* Социальные сети */
+.socials {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.socials a {
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
